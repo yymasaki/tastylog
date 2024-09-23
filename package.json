@@ -1,0 +1,22 @@
+{
+  "name": "tastylog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node dist/app.js",
+    "start": "nodemon src/index.ts"
+  },
+  "author": "yuhi masaki",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.5.5",
+    "@typescript-eslint/eslint-plugin": "^8.6.0",
+    "@typescript-eslint/parser": "^8.6.0",
+    "eslint": "^8.57.0",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}
