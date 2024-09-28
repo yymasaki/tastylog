@@ -5,12 +5,13 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "ts-node dist/app.js",
-    "start": "nodemon src/index.ts"
+    "dev": "ts-node app.js",
+    "start": "nodemon app.ts"
   },
   "author": "yuhi masaki",
   "license": "MIT",
   "devDependencies": {
+    "@types/express": "^5.0.0",
     "@types/node": "^22.5.5",
     "@typescript-eslint/eslint-plugin": "^8.6.0",
     "@typescript-eslint/parser": "^8.6.0",
@@ -18,5 +19,9 @@
     "nodemon": "^3.1.7",
     "ts-node": "^10.9.2",
     "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "expres": "^0.0.5",
+    "express": "^4.21.0"
   }
 }
